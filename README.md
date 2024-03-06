@@ -10,6 +10,7 @@ Geometric operations are performed in this project
 >>> + Uchburchakning rasmi
 > 3. Davom etish haqida
 
+## Code
 ```Csharp
 System.Console.WriteLine("Welcome to my project!");
 System.Console.WriteLine("===========Asosiy=========,===========Chizish=========");
