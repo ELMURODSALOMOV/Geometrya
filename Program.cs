@@ -1,7 +1,9 @@
-﻿ // ---------------------------------------------------------------
-    // Copyright (c) Coalition of the Good-Hearted Engineers
-    // FREE TO USE TO CONNECT THE WORLD
-    // ---------------------------------------------------------------
+﻿// ---------------------------------------------------------------
+// Copyright (c) Coalition of the Good-Hearted Engineers
+// FREE TO USE TO CONNECT THE WORLD
+// ---------------------------------------------------------------
+using System.ComponentModel;
+
 DavomEt:
 System.Console.WriteLine("Welcome to my project!");
 System.Console.WriteLine("===========Asosiy=========,===========Chizish=========");
@@ -11,7 +13,7 @@ string Select = Console.ReadLine();
 if(Select == "1")
 {
     System.Console.WriteLine("What do you need?");
-    System.Console.WriteLine("Kubning hajmini: ======= To'rtburchak premetri: ======= ?????????");
+    System.Console.WriteLine("Kubning hajmini: ======= To'rtburchak primetri: ======= Uchburchakning primetri");
     string tanlang = Console.ReadLine();
 
     if(tanlang == "1")
@@ -33,6 +35,17 @@ if(Select == "1")
         System.Console.Write("B: ");
         int B = Convert.ToInt32(Console.ReadLine());
         System.Console.WriteLine($"Primetr: {(A + B) * 2}");
+    }
+    if(tanlang == "3")
+    {
+        System.Console.WriteLine("Uchburchakning tomonlarini kiriting:");
+        System.Console.Write("A: ");
+        int A = Convert.ToInt32(Console.ReadLine());
+        System.Console.Write("B: ");
+        int B = Convert.ToInt32(Console.ReadLine());
+        System.Console.Write("C: ");
+        int C = Convert.ToInt32(Console.ReadLine());
+        System.Console.WriteLine($"Uchburchakning primetri: {A + B + C}");
     }
 }
 
