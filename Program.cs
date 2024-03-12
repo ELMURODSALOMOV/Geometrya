@@ -1,4 +1,4 @@
-﻿// ---------------------------------------------------------------
+﻿  // ---------------------------------------------------------------
 // Copyright (c) Coalition of the Good-Hearted Engineers
 // FREE TO USE TO CONNECT THE WORLD
 // ---------------------------------------------------------------
@@ -26,7 +26,7 @@ if(Select == "1")
       System.Console.Write("Kubning balandligi: ");
       int balandligi = Convert.ToInt32(Console.ReadLine());
       System.Console.WriteLine($"Kubning hajmi: {eni * buyi * balandligi}");
-    } 
+    }
    else if(tanlang == "2")
     {
         System.Console.WriteLine("Turburchakning tomonlarini kiriting: ");
